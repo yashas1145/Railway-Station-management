@@ -1,0 +1,3 @@
+
+12:37:24: Route set: Up; Train: 1001 BCNA Freight ; 12:37:25 S2A Advanced set;12:37:25 S1 Home set;12:37:25 S3 Starter set;12:37:34 S1 Home reset;
+12:40:13: Route set: Up; Train: 12079 SBC UBL Janshatabdi Express; 12:40:14 S1 Home set;12:40:23 S1 Home reset;12:41:12 S2A Advanced set;12:41:12 S4 Starter set;12:41:32 S4 Starter reset;12:42:53 S2A Advanced reset;
