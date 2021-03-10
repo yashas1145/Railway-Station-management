@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>Icons/Back.webp</file>
+    <file>Icons/Search.webp</file>
+    <file>Icons/SWR MYS.png</file>
+    <file>Icons/IR Logo.png</file>
+    <file>Icons/Add.webp</file>
+    <file>Icons/Clear.webp</file>
+    <file>Icons/Close.webp</file>
+    <file>Icons/Delete.webp</file>
+    <file>Icons/Export.webp</file>
+    <file>Icons/Help.webp</file>
+    <file>Icons/Instagram.webp</file>
+    <file>Icons/Interlock.webp</file>
+    <file>Icons/LinkedIn.webp</file>
+    <file>Icons/Log Out.webp</file>
+    <file>Icons/Python.webp</file>
+    <file>Icons/Route.webp</file>
+    <file>Icons/Settings.webp</file>
+    <file>Icons/Signal.png</file>
+    <file>Icons/Sql.webp</file>
+    <file>Icons/Station.png</file>
+    <file>Icons/Ticket.png</file>
+    <file>Icons/Trains.png</file>
+    <file>Icons/Update.webp</file>
+    <file>Icons/Users.webp</file>
+    <file>Icons/Verify.webp</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,99 @@
+signal : sName, sDirection, sRoad, sType 
+route : rName, rDirection, rRoad, rTime
+
+def setSignal():
+
+	x = rDirection
+	y = rRoad
+	z = rTime
+
+	if rDirection == 'Up':
+		
+		setUpDirnSignal(rRoad, rTime)
+
+	else
+
+		setDnDirnSignal(rRoad, rTime)
+
+def setUpDirnSignal(rRoad, rTime):
+
+	if rTime == 'Skip':
+		
+		setUpHome(green)
+		setUpStarter(rRoad,0,green)	#setStarter(pfNumber, waiting time, aspect)
+		setUpLSS(green)
+
+		resetUpHome(5,red)
+		resetUpStarter(15,red)
+		resetUpLSS(25,red)
+
+	else:
+
+		setUpHome(yellow)
+		setUpStarter(rRoad,60,red)
+		setUpLSS(red)
+
+		resetUpHome(5,red)
+		resetUpStarter(65,red)
+		resetUpLSS(75,red)
+
+def setDnDirnSignal(rRoad, rTime):
+
+	if rTime == 'Skip':
+		
+		setDnHome(green)
+		setDnStarter(rRoad,green)	#setStarter(pfNumber, waiting time, aspect)
+		setDnLSS(green)
+
+		resetDnHome(5,red)
+		resetDnStarter(15,red)
+		resetDnLSS(25,red)
+
+	else:
+
+		setDnHome(yellow)
+		setDnStarter(rRoad,red)
+		setDnLSS(red)
+
+
+		resetDnHome(5,red)
+		resetDnStarter(65,red)
+		resetDnLSS(75,red)
+
+def setUpStarter(Road,Wait,Aspect):
+
+	if Road == 2:
+		
+		setRoad2UpStarter(green)
+
+	elif Road == 1:
+
+		setRoad1UpStarter(yellow)
+
+	else:
+	
+		setRoad3UpStarter(yellow)
+
+def setDnStarter(Road,Wait,Aspect):
+
+	if Road == 2:
+		
+		setRoad2DnStarter(green)
+
+	elif Road == 1:
+
+		setRoad1DnStarter(yellow)
+
+	else:
+	
+		setRoad3DnStarter(yellow)
+		
+		
+		
+	
+
+
+	
+	
+
+		
